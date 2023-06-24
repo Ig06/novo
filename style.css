@@ -30,6 +30,11 @@ nav ul li a {
   color: #000000;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  font-size: 12px; /* Adiciona o tamanho da fonte */
+  padding: 10px; /* Aumenta a área de toque verticalmente */
+  display: inline-block; /* Permite definir um width para a área de toque */
+  width: 100px; /* Aumenta a área de toque horizontalmente */
+  text-align: center;
 }
 
 nav ul li a:hover {
@@ -60,4 +65,12 @@ img {
   width: 300px;
   border-radius: 25px;
   margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 12px; /* Adiciona o tamanho da fonte */
+}
+
+p {
+  font-size: 12px; /* Adiciona o tamanho da fonte */
 }
