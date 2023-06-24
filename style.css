@@ -1,0 +1,63 @@
+body {
+  background-color: #F8E6E6;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #D8E8E8;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #F8F4E8;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: rgba(123, 123, 123, 0.297);
+  width: 300px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  animation-duration: 0.3s;
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+section {
+  margin: 20px;
+  text-align: center;
+}
+
+img {
+  mix-blend-mode: multiply;
+  width: 300px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
